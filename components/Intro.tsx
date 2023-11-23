@@ -36,7 +36,7 @@ export default function Intro() {
                     >👋</motion.span>
                 </div>
             </div>
-            <motion.p
+            <motion.h1
                 className='mb-10 mt-4 px-1 text-2xl font-medium !leading-[1.5] sm:text-4xl'
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export default function Intro() {
                 <span className='font-bold'>{`Hello, I'm Vladyslav. `}</span>
                 I am a <span className='font-bold'>frontend developer</span>.
                 I enjoy building modern looking <span className='italic'>sites & apps</span>. My main focus is <span className='underline'>React (Next.js)</span>
-            </motion.p>
+            </motion.h1>
             <motion.div
                 className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'
                 initial={{ opacity: 0, y: 100 }}
